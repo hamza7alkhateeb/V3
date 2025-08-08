@@ -1,0 +1,48 @@
+# === Node.js (React client) ===
+client/node_modules/
+client/build/
+client/.env
+client/.DS_Store
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# Optional Yarn PnP files
+.pnp.js
+.pnp/
+
+# Code coverage
+coverage/
+
+# Env files from CRA (optional, for safety)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Python (Django server) ===
+server/__pycache__/
+server/*.py[cod]
+server/db.sqlite3
+server/media/
+server/.env
+server/env/
+server/.DS_Store
+
+# === Python virtual environment ===
+.venv/
+env/
+venv/
+
+# === General OS files ===
+.DS_Store
+Thumbs.db
+
+# === VSCode settings (optional) ===
+.vscode/
+
+# === Root .env file ===
+.env
+
+# === Logs ===
+*.log
